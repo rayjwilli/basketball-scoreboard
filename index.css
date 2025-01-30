@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    background-color: #092033;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2px;
+    text-align: center;
+}
+
+.team-title {
+    margin-bottom: -30px;
+    font-size: 46px;
+    font-weight: 800;
+}
+
+.score-div {
+    height: 150px;
+    width: 180px;
+    background-color: #0d0d0d;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+#home-score, #guest-score {
+    padding-top: 36px;
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 60px;
+    color: #EC4B4B;
+}
+
+
+.point-button-div {
+    margin-top: 15px;
+    margin-left: 10px
+}
+
+.point-button {
+    height: 40px;
+    width: 60px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-right: 2px;
+    cursor: pointer;
+    color: white;
+    font-family: 'Silkscreen', sans-serif;
+}
